@@ -1,0 +1,558 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    background-image: url('bg-graph.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+    background-color: white;
+  }
+  .color {
+    
+    background: linear-gradient(270deg, #05445e 0%, #0c445c 100%);
+  }
+  .header {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 25px;
+    color: #ffffff;
+  }
+  .para {
+    margin-top: 110px;
+    margin-left: 35px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+    
+  }
+  .para1 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .para2 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .para3 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .para4 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .card-join {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    left: 23px;
+    top: 300px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+
+    background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+    border-radius: 8px;
+    color: #05445e;
+  }
+  .card-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 340px;
+    height: 45px;
+    left: 23px;
+    top: 360px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(94.24deg, #033042 -0.03%, #005c83 99.97%);
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  .logo {
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 370px;
+    
+    background-color: #05445e;
+  }
+  .newpara {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    color: black;
+  }
+  .newpara2 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    /* margin-top: 35px; */
+    color: black;
+  }
+  .newpara1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    color: #005c83;
+  }
+  .paraL {
+    margin-left: 35px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .bg-body {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 40, 54) 100%
+    );
+    border-color: #21495a;
+    /* margin-left: 5px; */
+  }
+  .bg-body2 {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 0px 0px;
+    border-radius: 3.66px;
+    background: linear-gradient(180deg, #f7f9fa 0%, #f5fdff 100%);
+
+    border-color: #23556a;
+    
+  }
+  
+  .card {
+    margin-top: 50px;
+  }
+  .card-title {
+    background: #ffffff;
+    border-radius: 9.52195px 9.52195px 0px 0px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .card-rate {
+    text-decoration-line: line-through;
+    color: #818181;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .card-rate2 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    background: linear-gradient(90deg, #3f6fc1 0%, #05445e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .card-body {
+    background-color: #05445e;
+  }
+  .card-btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 335px;
+    height: 45px;
+    top: 660px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+
+    background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+    border-radius: 8px;
+    color: #05445e;
+  }
+  .p1 {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    /* margin-left: 1px; */
+  }
+  .bg-btn {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 40, 54) 100%
+    );
+    border-color: #21495a;
+    margin-left: 10px;
+  }
+  .bg-btn1 {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 36, 46) 100%
+    );
+    border-color: #21495a;
+    margin-left: 10px;
+  }
+  .p4 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #0f0f0f;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .p5 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration-line: line-through;
+    color: #818181;
+    margin-left: 10px;
+  }
+  .p6 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    background: linear-gradient(90deg, #3f6fc1 0%, #05445e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    background-image: url('bg-graph.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+    background-color: white;
+  }
+  .color {
+    background: linear-gradient(270deg, #05445e 0%, #0c445c 100%);
+  }
+  .header {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60px;
+    color: #ffffff;
+  }
+  .para {
+    margin-top: 180px;
+    margin-left: 62px;
+    color: #ffffff;
+  }
+  .para1 {
+    margin-left: 55px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+    /* margin-top: 150px; */
+  }
+  .para2 {
+    margin-left: 55px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+    margin-top: 80px;
+  }
+  .para3 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+    margin-top: 80px;
+  }
+  .para4 {
+    margin-left: 30px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .newpara {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    /* text-align: center; */
+    margin-top: 165px;
+    color: black;
+  }
+  .newpara2 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    /* text-align: center; */
+    /* margin-top: 35px; */
+    color: black;
+  }
+  .newpara1 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    /* text-align: center; */
+    color: #005c83;
+  }
+  .paraL {
+    /* margin-left:100px; */
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 65px;
+  }
+  .card-join {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    /* left: 200px; */
+    top: 250px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 60px;
+    background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+    border-radius: 8px;
+    color: #05445e;
+  }
+  .card-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    margin-left: 270px;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    /* left: 467px; */
+    top: 250px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(94.24deg, #033042 -0.03%, #005c83 99.97%);
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  .logo {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 530px;
+    /* height:1000px; */
+    background-color: #05445e;
+  }
+  .card {
+    margin-top: 70px;
+  }
+  .card-body {
+    background-color: #05445e;
+  }
+  .card-btn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 335px;
+    height: 35px;
+    /* left: 200px; */
+    top: 670px;
+    font-family: "DM sans";
+    font-style: normal;
+    font-weight: 700;
+
+    background: linear-gradient(90.76deg, #ffffff 0%, #dff6ff 144.63%);
+    border-radius: 8px;
+    color: #05445e;
+  }
+  .bg-body {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 40, 54) 100%
+    );
+    border-color: #21495a;
+  }
+  .bg-body2 {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 0px 0px;
+    border-radius: 3.66px;
+    background: linear-gradient(180deg, #f7f9fa 0%, #f5fdff 100%);
+
+    border-color: #23556a;
+    /* margin-left: 100px; */
+  }
+  .bg-body3 {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 0px 0px;
+    border-radius: 3.66px;
+    background: linear-gradient(180deg, #f7f9fa 0%, #f5fdff 100%);
+
+    border-color: #23556a;
+    /* margin-left: 60px; */
+  }
+  /* .year{
+        margin-left: 35px;
+    }
+    .year2{
+        margin-left: 45px;
+    } */
+  .p1 {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* margin-left: 5px; */
+  }
+  .bg-btn {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 40, 54) 100%
+    );
+    border-color: #21495a;
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+  .bg-btn1 {
+    box-sizing: border-box;
+    width: 1px;
+    box-shadow: 1px 1px;
+    border-radius: 3.66px;
+    background: linear-gradient(
+      180deg,
+      rgb(8, 86, 120) 0%,
+      rgb(4, 36, 46) 100%
+    );
+    border-color: #21495a;
+    margin-left: 60px;
+    /* margin-top: 80px; */
+  }
+  .p4 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #0f0f0f;
+    margin-left: 15px;
+  }
+  .p5 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration-line: line-through;
+    color: #818181;
+    margin-left: 15px;
+  }
+  .p6 {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    background: linear-gradient(90deg, #3f6fc1 0%, #05445e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 15px;
+  }
+}
